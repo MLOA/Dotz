@@ -1,0 +1,30 @@
+.root {
+	flex-grow: 1;
+	background: wheat;
+	display: flex;
+	flex-direction: column;
+}
+
+.quiz {
+	background: orange;
+	padding: 1rem;
+	word-break: break-word;
+	font-size: 1.5rem;
+}
+
+.answer {
+	background: pink;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.answer > p {
+	font-size: 1.5rem;
+	background: white;
+	line-height: 4rem;
+	padding: 0 1rem;
+	border-radius: 2rem;
+	margin: 0 1rem;
+}
